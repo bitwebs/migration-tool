@@ -2,7 +2,7 @@
 const { migrate } = require('.')
 
 ;(async () => {
-  console.log('Migrating from the Hyperdrive daemon to Hyperspace...')
+  console.log('Migrating from the BitDrive daemon to BitSpace...')
   try {
     await migrate()
     console.log('Migration succeeded!')
